@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@color/white">
+    <include layout="@layout/custom_header"
+        android:id="@+id/header"/>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginTop="100sp"
+                android:id="@+id/layoutHead"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="30sp"
+                android:layout_marginRight="30sp">
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="45sp"
+                    android:layout_marginTop="15sp"
+                    android:background="@drawable/btn_gray_radious">
+                    <EditText
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:hint="Name of Bank"
+                        android:background="@null"
+                        android:id="@+id/father_name_text"
+                        android:inputType="text"
+                        android:textSize="15sp"
+                        android:layout_gravity="center"
+                        android:textColor="@color/black"
+                        android:backgroundTint="@android:color/transparent"
+                        android:textColorHint="@color/light_gray"/>
+                </LinearLayout>
+
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="45sp"
+                    android:layout_marginTop="30sp"
+                    android:background="@drawable/btn_gray_radious">
+                    <EditText
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:background="@null"
+                        android:layout_gravity="center"
+                        android:hint="Account Number"
+                        android:id="@+id/account_no"
+                        android:editable="false"
+                        android:textSize="15sp"
+                        android:inputType="number"
+                        android:textColor="@color/black"
+                        android:backgroundTint="@android:color/transparent"
+                        android:textColorHint="@color/light_gray"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="45sp"
+                    android:layout_marginTop="30sp"
+                    android:background="@drawable/btn_gray_radious">
+                    <EditText
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:background="@null"
+                        android:layout_gravity="center"
+                        android:hint="Branch Code"
+                        android:id="@+id/branch_code"
+                        android:editable="false"
+                        android:textSize="15sp"
+                        android:inputType="text"
+                        android:textColor="@color/black"
+                        android:backgroundTint="@android:color/transparent"
+                        android:textColorHint="@color/light_gray"/>
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="45sp"
+                    android:layout_marginTop="30sp"
+                    android:background="@drawable/btn_gray_radious">
+                    <EditText
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:background="@null"
+                        android:layout_gravity="center"
+                        android:hint="IFSC Code"
+                        android:id="@+id/ifsc_code"
+                        android:editable="false"
+                        android:textSize="15sp"
+                        android:inputType="text"
+                        android:textColor="@color/black"
+                        android:backgroundTint="@android:color/transparent"
+                        android:textColorHint="@color/light_gray"/>
+                </LinearLayout>
+
+
+
+
+
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="50sp"
+                    android:textColor="@color/white"
+                    android:text="Next"
+                    android:layout_marginBottom="50sp"
+                    android:id="@+id/next"
+                    android:background="@drawable/btn_light_blue"
+                    android:layout_marginTop="30sp"
+                    android:textAllCaps="false"/>
+            </LinearLayout>
+
+            <com.tuyenmonkey.mkloader.MKLoader
+                android:layout_width="150sp"
+                android:layout_height="150sp"
+                app:mk_type="LineSpinner"
+                android:id="@+id/loader"
+                android:visibility="gone"
+                android:layout_marginTop="160sp"
+                android:layout_centerHorizontal="true"
+                app:mk_color="@color/light_green"
+                />
+
+</RelativeLayout>
