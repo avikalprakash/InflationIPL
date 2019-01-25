@@ -4,15 +4,15 @@
     <item
         android:id="@+id/navigation_home"
        android:icon="@drawable/home"
-        android:title="New Registration" />
+        android:title="Home" />
 
     <item
         android:id="@+id/navigation_new_register"
-        android:icon="@drawable/home"
-        android:title="New Registration" />
+        android:icon="@drawable/register"
+        android:title="Registration" />
     <item
         android:id="@+id/navigation_change_password"
-        android:icon="@drawable/home"
-        android:title="Change Password" />
+        android:icon="@drawable/lock"
+        android:title="Password" />
 
 </menu>

@@ -25,6 +25,7 @@ public class ChangePassword extends AppCompatActivity {
         tvheadertitle=(TextView)findViewById(R.id.tvheadertitle);
         tvheadertitle.setText("Change Password");
         back = (ImageView)findViewById(R.id.ivheaderleft);
+        submitBtn = findViewById(R.id.submit);
         back.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {

@@ -48,12 +48,9 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
-     //   session = new UserSessionManager(getApplicationContext());
 
-        signupLinear.setOnClickListener(this);
         login = findViewById(R.id.login);
         login.setOnClickListener(this);
-        fb_login.setOnClickListener(this);
         username_text = findViewById(R.id.username_text);
         password_text = findViewById(R.id.password_text);
         loader = findViewById(R.id.loader);

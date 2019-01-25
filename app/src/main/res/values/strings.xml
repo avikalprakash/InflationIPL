@@ -2,4 +2,13 @@
     <string name="app_name">Inflation IPL</string>
     <string name="male">Male</string>
     <string name="female">Female</string>
+
+    <string-array name="qualification">
+        <item>Qualification</item>
+        <item>Non-Matric</item>
+        <item>Matric</item>
+        <item>Inter</item>
+        <item>Graduation</item>
+        <item>Post Graduation</item>
+    </string-array>
 </resources>
