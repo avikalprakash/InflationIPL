@@ -8,6 +8,14 @@
     android:background="@color/white">
     <include layout="@layout/custom_header"
         android:id="@+id/header"/>
-
+    <android.support.design.widget.BottomNavigationView
+        android:id="@+id/navigation"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        app:itemTextColor="@color/bottom_nav_color"
+        app:itemIconTint="@color/bottom_nav_color"
+        app:labelVisibilityMode="labeled"
+        android:layout_alignParentBottom="true"
+        app:menu="@menu/navigation" />
 
 </RelativeLayout>

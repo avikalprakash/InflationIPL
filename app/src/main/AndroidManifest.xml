@@ -9,11 +9,15 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".activity.FiveStepActivity"
-            android:theme="@style/Theme.AppCompat.NoActionBar" ></activity>
-        <activity android:name=".activity.FourStepActivity"
+        <activity android:name=".activity.ChangePassword"></activity>
+        <activity
+            android:name=".activity.FiveStepActivity"
             android:theme="@style/Theme.AppCompat.NoActionBar" />
-        <activity android:name=".activity.ThirdStepActivity"
+        <activity
+            android:name=".activity.FourStepActivity"
+            android:theme="@style/Theme.AppCompat.NoActionBar" />
+        <activity
+            android:name=".activity.ThirdStepActivity"
             android:theme="@style/Theme.AppCompat.NoActionBar" />
         <activity
             android:name=".activity.SecondStepActivity"
@@ -32,9 +36,7 @@
         </activity>
         <activity
             android:name=".MainActivity"
-            android:theme="@style/Theme.AppCompat.NoActionBar">
-
-        </activity>
+            android:theme="@style/Theme.AppCompat.NoActionBar"></activity>
     </application>
 
 </manifest>

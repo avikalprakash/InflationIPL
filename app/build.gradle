@@ -24,6 +24,8 @@ dependencies {
     implementation 'com.android.support.constraint:constraint-layout:1.1.3'
     // custom loader
     implementation 'com.tuyenmonkey:mkloader:1.4.0'
+   //android design support
+    implementation 'com.android.support:design:28.0.0'
     //volley
     implementation 'com.mcxiaoke.volley:library-aar:1.0.0'
     testImplementation 'junit:junit:4.12'
